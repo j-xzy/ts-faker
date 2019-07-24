@@ -1,8 +1,11 @@
 {
   "name": "ts-faker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use typescript fake data for your system.",
   "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "clean": "rm -fr lib",
     "build": "npm run clean && tsc -p ./tsconfig.json",
