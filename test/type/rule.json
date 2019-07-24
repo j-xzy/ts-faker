@@ -1,0 +1,23 @@
+{
+  "anyProp": "object",
+  "arrayProp": {
+    "type": "array",
+    "itemType": "string"
+  },
+  "boolProp": "boolean",
+  "emumProp": [
+    "red",
+    "blue",
+    true,
+    999
+  ],
+  "nullProp": {
+    "required": false
+  },
+  "tupleProp": {
+    "type": "array"
+  },
+  "numberProp": "number",
+  "stringProp": "string",
+  "unknowProp": "object"
+}

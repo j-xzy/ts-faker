@@ -1,0 +1,22 @@
+{
+  "nestProp": {
+    "type": "object",
+    "rule": {
+      "objProp": {
+        "type": "object",
+        "rule": {
+          "one": "string",
+          "two": "number"
+        }
+      },
+      "arrayProp": {
+        "type": "array",
+        "itemType": "object",
+        "rule": {
+          "name": "string",
+          "age": "number"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "ignoreProp": {
+    "required": false
+  },
+  "patternProp": [
+    "yes",
+    "no",
+    "maybe"
+  ],
+  "dateProp": "string",
+  "emailProp": "email",
+  "hostnameProp": "string",
+  "ipv4Prop": "string",
+  "ipv6Prop": "string",
+  "uriProp": "string",
+  "minLengthProp": {
+    "type": "string",
+    "min": 5
+  },
+  "maxLengthProp": {
+    "type": "string",
+    "min": 3,
+    "max": 5
+  },
+  "minimumProp": {
+    "type": "number",
+    "min": 50
+  },
+  "maximumProp": {
+    "type": "number",
+    "min": 50,
+    "max": 52
+  },
+  "multipleOfProp": "number",
+  "minItemsProp": {
+    "type": "array",
+    "itemType": "string",
+    "min": 2
+  },
+  "maxItemsProp": {
+    "type": "array",
+    "itemType": "string",
+    "min": 5,
+    "max": 5
+  },
+  "uniqueItemsProp": {
+    "type": "array",
+    "itemType": "number"
+  },
+  "additionalPropertiesProp": "object"
+}

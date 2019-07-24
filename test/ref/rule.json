@@ -1,0 +1,17 @@
+{
+  "propA": {
+    "type": "object",
+    "rule": {
+      "name": "string",
+      "age": "number",
+      "home": "string",
+      "phone": {
+        "type": "object",
+        "rule": {
+          "mobile": "number",
+          "phone": "string"
+        }
+      }
+    }
+  }
+}
