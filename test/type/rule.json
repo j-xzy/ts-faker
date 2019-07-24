@@ -19,5 +19,8 @@
   },
   "numberProp": "number",
   "stringProp": "string",
-  "unknowProp": "object"
+  "unknowProp": "object",
+  "neverProp": {
+    "required": false
+  }
 }

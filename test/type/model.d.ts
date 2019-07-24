@@ -8,4 +8,5 @@ interface IType {
   nullProp: null;
   anyProp: any;
   unknowProp: unknown;
+  neverProp: never;
 }
