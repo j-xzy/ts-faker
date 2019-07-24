@@ -8,7 +8,8 @@
     "build": "npm run clean && tsc -p ./tsconfig.json",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "fix-lint": "tslint -c tslint.json -p tsconfig.json --fix",
-    "test": "mocha -r ts-node/register test/**/*.test.ts"
+    "test": "mocha -r ts-node/register test/**/*.test.ts",
+    "prepublish": "npm run build"
   },
   "author": "whj1995",
   "repository": {
