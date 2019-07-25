@@ -18,7 +18,7 @@ export default async function fake(files: string[], settings: ISettings = { loca
 
   const program = tjs.getProgramFromFiles(files, { lib: ['esnext'] });
   const validationKeywords = settings.validationKeywords ? ['faker', ...settings.validationKeywords] : ['faker'];
-  const generator = tjs.buildGenerator(program, { ...settings, validationKeywords, required: true }, files)!;
+  const generator = tjs.buildGenerator(program, { ...settings, validationKeywords, required: true, include: files }, files)!;
   const userSymbols = generator.getUserSymbols();
   const datas: any = {};
   const fakeDatas = await Promise.all(
