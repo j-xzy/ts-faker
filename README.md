@@ -7,40 +7,7 @@
 
 - You can find examples for all features in the [test examples](https://github.com/whj1995/ts-faker/tree/master/test).
 
-``` ts
-interface IType {                          
-  /**                                      
-   * @pattern yes|no|maybe                
-   */                                         
-  patternProp: string;                       
-                                               
-  /**                                    
-   * @format date-time 
-   */                                            
-  dateProp: string;                          
-                          
-  /**
-   * @format email
-   */
-  emailProp: string;
-
-  /**
-   * @faker address.city
-   */
-  city: string;
-}
-
-      ↓ ↓ ↓
-{
-  "IType": {
-    "patternProp": "yes",
-    "dateProp": "1987-03-15T20:15:52.522Z",
-    "emailProp": "6r1N9A@wMdhrhRY.abnm",
-    "city": "New York"
-  }
-}
-```
-
+![](https://raw.githubusercontent.com/whj1995/images-host/master/ts-faker-t.png)
 
 ## Basic usage
 
