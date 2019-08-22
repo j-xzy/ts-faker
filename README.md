@@ -9,8 +9,6 @@
 
 ![](https://raw.githubusercontent.com/whj1995/images-host/master/tsfaker.gif)
 
-![](https://raw.githubusercontent.com/whj1995/images-host/master/ts-faker-t.png)
-
 ## Basic usage
 
 ``` ts
