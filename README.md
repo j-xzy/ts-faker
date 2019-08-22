@@ -5,6 +5,8 @@
 
 > Use typescript fake data for your system.
 
+![](https://raw.githubusercontent.com/whj1995/images-host/master/tsfaker.gif)
+
 - You can find examples for all features in the [test examples](https://github.com/whj1995/ts-faker/tree/master/test).
 
 ![](https://raw.githubusercontent.com/whj1995/images-host/master/ts-faker-t.png)
