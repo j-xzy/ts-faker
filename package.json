@@ -1,6 +1,6 @@
 {
   "name": "ts-faker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Use typescript fake data for your system.",
   "main": "./lib/index.js",
   "files": [
